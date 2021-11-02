@@ -191,7 +191,6 @@ a{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
 }
 
 .thumbnail{
@@ -468,6 +467,7 @@ a{
         width: 100%;
         padding: 25px 0;
         margin: 0 0 15px 0;
+        flex-direction: column-reverse;
     }
 
     .why{

@@ -128,7 +128,7 @@ a{
 .about-us{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     padding: 0px 100px;
     background-color: #fff;
     height: 100vh;
@@ -410,12 +410,14 @@ a{
         display: none;
     }
 
+    .jumbo-text{
+        width: 95%;
+    }
     .jumbo p{
         font-size: 36px;
     }
 
     .about-us{
-        flex-direction: column;
         padding: 50px 0;
         height: auto;
     }
@@ -430,7 +432,6 @@ a{
         justify-content: center;
     }
     .about-pic{
-        height: 375px;
         width: 100%;
     }
 
@@ -442,7 +443,7 @@ a{
     .about-text{
         font-size: 24px;
         width: 100%;
-        padding: 0 15px;
+        padding: 0 15px 15px;
         padding-top: 15px;
     }
     .about-us .about-text {

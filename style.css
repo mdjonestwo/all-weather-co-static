@@ -441,7 +441,7 @@ a{
 
     .about-text{
         font-size: 24px;
-        width: 100%;
+        width: 80%;
         padding: 0 15px 15px;
         padding-top: 15px;
     }
@@ -481,6 +481,7 @@ a{
 
     .why .about-text{
         padding-bottom: 15px;
+        padding-right: 0;
     }
 
     .testimonial-section{
